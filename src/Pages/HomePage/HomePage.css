@@ -1,0 +1,43 @@
+.homePage form {
+  background: linear-gradient(
+    90deg,
+    rgba(253, 29, 167, 0.8897934173669468) 42%,
+    rgba(89, 69, 252, 1) 67%
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 50px;
+  border-radius: 50px;
+  margin: 120px auto;
+}
+.homePage form input {
+  height: 50px;
+  width: 75%;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  padding: 12px;
+}
+.homePage form button {
+  width: 75%;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background: rgb(89, 69, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(89, 69, 252, 1) 42%,
+    rgba(253, 29, 167, 0.8897934173669468) 67%
+  );
+  color: white;
+  font-size: 20px;
+}
+.homePage form textarea {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+}

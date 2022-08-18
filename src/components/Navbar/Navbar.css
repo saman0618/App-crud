@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  background: rgb(253,29,167);
+  background: linear-gradient(90deg, rgba(253,29,167,0.8897934173669468) 42%, rgba(89,69,252,1) 67%);
+  height: 70px;
+}
+nav .link {
+  font-size: 30px;
+  text-decoration: none;
+  color:white;
+}
+nav .nav_centr input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,24 @@
+th,
+td {
+  border: 1px solid white;
+  padding: 10px;
+}
+table {
+  background: rgb(89, 69, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(89, 69, 252, 1) 42%,
+    rgba(253, 29, 167, 0.8897934173669468) 67%
+  );
+  color: white;
+}
+table td button {
+  width: 40%;
+  font-size: 20px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+h1{
+    color: white;
+}
